@@ -9,15 +9,20 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Unbounded:wght@400;600&display=swap" rel="stylesheet">
 
   <style>
-    /* Fondo con textura de hilos o flores (sutil) */
-    body {
-      background-color: #ffeef2; /* rosa pastel */
-      background-image: url('https://www.transparenttextures.com/patterns/french-stucco.png');
-      font-family: 'Unbounded', sans-serif;
-      color: #555555; /* gris para texto general */
-      padding: 2rem;
-      text-align: center;
-    }
+.cta a {
+  text-decoration: none;
+  background: #ff69b4; /* ROSADO pastel intenso */
+  color: white;
+  padding: 0.8rem 1.6rem;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.cta a:hover {
+  background: #ff408c; /* Más oscuro al pasar el mouse */
+}
+
 
     header {
       font-family: 'Playfair Display', serif;
